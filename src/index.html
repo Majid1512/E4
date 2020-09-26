@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <!-- defer makes it such that the script loads after the html -->
+    <script defer src="render.js"></script>
+  </head>
+  <body>
+    <h1>Test GUI</h1>
+    <p>Welcome to your Electron application.</p>
+    <hr>
+
+    <div class="column" 
+         style="position:absolute;
+                left: 40%;
+                top: 20%;">
+      <div class="column is-half">
+        <button id="BTN1" class="button is-primary">Open Tableau Desktop</button>
+      </div>
+      <div class="column is-half">
+        <button id="BTN2" class="button is-primary">Option 2</button>
+      </div>
+      <div class="column">
+        <button id="BTN3" class="button is-primary">Option 3</button>
+      </div>
+      <div class="column">
+        <button id="BTN4" class="button is-primary">Option 4</button>
+      </div>
+    </div>
+
+    <!-- https://stackoverflow.com/questions/18491484/how-to-align-button-group-horizontal-in-the-centre-of-the-column-div -->
+    
+  </div>
+  </body>
+</html>
